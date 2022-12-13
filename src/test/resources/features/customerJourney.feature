@@ -1,4 +1,4 @@
-Feature: Selecting highest price item
+Feature: customer Journey and Journey stage
 
 #  @uiTest
 #  Scenario: Verify the user can login and check the options displayed properly
@@ -7,8 +7,8 @@ Feature: Selecting highest price item
 #    Then user verifies the options displayed expected
 
   @apiTest
-  Scenario: Verify the user posting PRRestService container responds
-    Given user sent the post request setting the channel "Web" and container name as "AmmyAccountHome"
+  Scenario: Verify customer Journey and Journey stage
+    Given user sent the post request setting the channel "Web" and container name as "DomainConfigGBBUpsellMain"
     Then I should get the customer Journey and Journey stage report
 
 
