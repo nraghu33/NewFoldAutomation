@@ -1,0 +1,34 @@
+{
+  "ContainerName":"DomainConfigGBBUpsellMain",
+  "Channel":"Web",
+  "CustomerID":"0FC3E24A9E8A334D05B17E58CE433639" ,
+  "Direction":"Inbound",
+  "Resource":"AllResults",
+  "Contexts":[
+    {
+      "Type":"Intent",
+      "Value":"Interaction",
+      "Key":"CaseType"
+    },
+    {
+      "Type":"Intent",
+      "Value":"SC_His_Glory_VM_CT",
+      "Key":"PrecisionQueue"
+    },
+    {
+      "Type":"Intent",
+      "Value":"WN.MDS.424402694;Business Closed",
+      "Key":"ProductCancelReason"
+    },
+    {
+      "Type":"Intent",
+      "Value":"Networksolutions.com",
+      "Key":"Brand"
+    },
+    {
+      "Type":"Intent",
+      "Value":"017776131234",
+      "Key":"PhoneNumber"
+    }
+  ]
+}
